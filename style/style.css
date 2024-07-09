@@ -108,7 +108,7 @@ header {
 .bannaer-section .btn {
         margin-left: 445px;
         letter-spacing: 0%;
-        
+
 }
 
 .btn {
@@ -131,3 +131,173 @@ header {
         text-decoration: none;
         align-items: center;
 }
+
+/* banner style ens here */
+
+/* main section styling stars here */
+.developer-section {
+        width: 1440px;
+        height: 450px;
+}
+
+.developer-contant {
+        align-items: center;
+        justify-content: center;
+        /* text-align: center; */
+        margin-left: 320px;
+}
+
+.developer-title {
+        width: 852px;
+        height: 39px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 32px;
+        font-weight: 800;
+}
+
+.developer-subtitle {
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-right: 250px;
+        margin-top: 30px;
+}
+
+.coding-section {
+        display: flex;
+        width: 946px;
+        height: 336px;
+        align-items: center;
+        margin-left: 250px;
+        margin-top: 50px;
+
+}
+
+.coding-title {
+        width: 390px;
+        height: 72px;
+        padding: 0px;
+        margin: 16px 0px;
+        color: rgba(13, 19, 33, 0.7);
+        font-family: Azeret Mono;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: left;
+}
+
+.coding-subtitle {
+        width: 468px;
+        height: 52px;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px;
+        margin: 16px 0px;
+        opacity: 0.7;
+
+}
+
+.btn-coding {
+        width: 200px;
+        height: 48px;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 20px 12px 20px;
+        box-sizing: border-box;
+        opacity: 0.7;
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 10px;
+        letter-spacing: 0%;
+        text-align: center;
+
+}
+
+.img-section {
+        margin-left: 300px;
+}
+
+
+.help-section {
+        width: 850px;
+        height: 240px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 100px;
+
+}
+
+.img-section {
+        width: 240px;
+        height: 240px;
+        position: relative;
+        margin-right: 50px;
+}
+
+.help-title {
+        width: 477px;
+        height: 72px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px;
+
+
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 16px 0px;
+        color: rgba(13, 19, 33, 0.7);
+        font-family: Azeret Mono;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: left;
+}
+
+.help-discrition {
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left;
+        opacity: 0.7;
+
+}
+
+.help-btn {
+        position: static;
+        width: 150px;
+        height: 48px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 20px 12px 20px;
+        margin: 32px 0px;
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0%;
+        text-align: center;
+}
+
+/* main section styling ends here */
