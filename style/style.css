@@ -38,13 +38,14 @@ nav {
         line-height: 23px;
         letter-spacing: 0%;
         text-align: center;
+        cursor: pointer;
 
 }
 
 header {
         background-image: url(/assets/Hero-bg.png);
         width: 1510px;
-        height: 650px;
+        height: 700px;
 }
 
 .bannaer-section {
@@ -95,24 +96,38 @@ header {
         font-family: Azeret Mono;
         font-size: 16px;
         font-weight: 400;
-        line-height: 26px;
+        line-height: 46px;
         letter-spacing: 0%;
         text-align: center;
 }
 
+.bannaer-section {
+        justify-content: center;
+}
+
+.bannaer-section .btn {
+        margin-left: 445px;
+        letter-spacing: 0%;
+        
+}
+
 .btn {
         /* Frame 2 */
-        width: 150px;
+        width: 200px;
         height: 66px;
-        display: flex;
-        align-items: center;
-
-        /* Inside Auto Layout */
-        flex: none;
-        flex-grow: 0;
-        margin: 32px 0px;
         border-radius: 8px;
-        justify-content: center;
-
         background: rgb(13, 19, 33);
+        color: rgb(255, 255, 255);
+        font-family: Azeret Mono;
+        margin-top: 20px;
+
+
+}
+
+.btn a {
+        color: aliceblue;
+        font-size: 1rem;
+        text-align: center;
+        text-decoration: none;
+        align-items: center;
 }
