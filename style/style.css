@@ -353,15 +353,9 @@ header {
 
 
 /* carent targer section styling start here */
-.carent-section {
-        width: 1140px;
-        height: 463px;
-        margin: 0px auto;
-}
 
 .carent-content {
-        width: 1140px;
-        height: 463px;
+        width: 1400px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -388,7 +382,6 @@ header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
         margin: 24px auto;
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
@@ -399,6 +392,7 @@ header {
         opacity: 0.7;
 
 }
+
 .html-card {
         width: 364px;
         height: 300px;
@@ -413,6 +407,7 @@ header {
         border-radius: 16px;
         background: rgba(255, 76, 30, 0.05);
 }
+
 .css-card {
         width: 364px;
         height: 300px;
@@ -427,6 +422,7 @@ header {
         border-radius: 16px;
         background: rgba(0, 76, 232, 0.05);
 }
+
 .js-card {
         width: 364px;
         height: 300px;
@@ -481,9 +477,271 @@ header {
         text-align: left;
         text-decoration-line: underline;
 }
-.box-card{
+
+.box-card {
         display: flex;
+        justify-content: center;
+        align-items: center;
 }
+
 /* carent targer section styling end here */
 
+
+
+/* next target section styling start here */
+.next-target-content {
+        position: static;
+        width: 1140px;
+        height: 871px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 111px auto;
+}
+
+.next-target-title {
+        width: 852px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 24px 0px;
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 37px;
+        text-align: center;
+}
+
+.taget-discrition {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 24px 0px;
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+}
+
+.react-card {
+        margin-bottom:20px;
+        width: 1140px;
+        height: 220px;
+        box-sizing: border-box;
+        border: 1px solid rgba(13, 19, 33, 0.15);
+        border-radius: 16px;
+        background: rgb(255, 255, 255);
+        padding-left: 50px;
+
+
+}
+
+.content-react {
+        width: 1060px;
+        height: 140px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+
+}
+
+.imgs {
+        /* Frame 10 */
+        position: static;
+        width: 180px;
+        height: 140px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 32px 0px;
+}
+
+.rect-discrition {
+        width: 941.22px;
+        height: 96px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0px;
+        margin: 16px 0px;
+
+}
+
+/* next target section styling end here */
+
+/* saprout section styling start here */
+.supprout {
+        background-image: linear-gradient(rgb(0, 0, 0));
+        /* Frame 8 */
+        width: 1140px;
+        height: 314px;
+        top: 4752px;
+        bottom: 179px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 64px 48px 64px 48px;
+        border-radius: 16px;
+        background-image: linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url(/assets/handshake.jpg);
+
+
+}
+
+.sapurot-title {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+
+        margin: 0 auto;
+        color: rgb(255, 255, 255);
+        font-family: Azeret Mono;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+}
+
+.sapurrot-discrition {
+        color: rgb(255, 255, 255);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: center;
+}
+
+.input-fild {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        border: 1px solid rgba(13, 19, 33, 0.15);
+        border-radius: 8px;
+        border: 1px solid rgba(13, 19, 33, 0.15);
+        border-radius: 8px;
+
+}
+
+.supprout input {
+        width: 548px;
+        height: 57px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 19px 20px 19px 20px;
+        margin: 0px 16px;
+        box-sizing: border-box;
+        border: 1px solid rgba(11, 73, 216, 0.15);
+        border-radius: 8px;
+        background: rgb(255, 255, 255);
+        border: none;
+
+}
+
+.supprout button {
+        width: 120px;
+        height: 58px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 17px 20px 17px 20px;
+        margin: 0px 16px;
+        border-radius: 8px;
+        background: rgb(255, 255, 255);
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0%;
+        text-align: center;
+        border: none;
+
+}
+
+.placeholder {
+        color: rgba(13, 19, 33, 0.4);
+        font-family: Azeret Mono;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+}
+
+/* saprout section styling end here */
+
 /* main section styling ends here */
+
+
+/* footer styling start here */
+footer {
+        margin: 50px auto;
+        background: rgb(233, 207, 207);
+        border-radius: 10px;
+
+}
+
+.footer-content {
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 1400px;
+        display: flex;
+        justify-content: space-between;
+        padding: 32px 150px 32px 150px;
+        border-radius: 16px;
+}
+
+.footer-title {
+        align-items: center;
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0%;
+}
+
+.footer-content .linkdin {
+        font-size: 40px;
+        margin: 10px;
+
+
+}
+
+.footer-content .tiweter {
+        font-size: 40px;
+        margin: 10px;
+}
+
+.footer-content .github {
+        font-size: 40px;
+        gap: 5px;
+
+
+}
+
+/* footer styling ends here */
