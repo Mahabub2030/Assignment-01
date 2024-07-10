@@ -642,7 +642,7 @@ header {
         align-items: flex-start;
         padding: 64px 48px 64px 48px;
         border-radius: 16px;
-        background-image: linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url(../imgs/handshake.jpg);
+        background-image: linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url(../assets/hand_footer.jpg);
 
 
 }
