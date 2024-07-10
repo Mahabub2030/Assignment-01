@@ -44,8 +44,9 @@ nav {
 
 header {
         background-image: url(/assets/Hero-bg.png);
-        width: 1510px;
+        width: 1550px;
         height: 700px;
+        margin: 0 auto;
 }
 
 .bannaer-section {
@@ -61,6 +62,7 @@ header {
         justify-content: flex-start;
         align-items: center;
         padding: 0px;
+        margin: 0 auto;
 
 }
 
@@ -135,9 +137,13 @@ header {
 /* banner style ens here */
 
 /* main section styling stars here */
+
+
 .developer-section {
         width: 1440px;
         height: 450px;
+        margin: 0 auto;
+        padding: 100px;
 }
 
 .developer-contant {
@@ -176,32 +182,26 @@ header {
         width: 946px;
         height: 336px;
         align-items: center;
-        margin-left: 250px;
-        margin-top: 50px;
+        margin: 30px auto;
 
 }
 
 .coding-title {
-        width: 390px;
-        height: 72px;
-        padding: 0px;
-        margin: 16px 0px;
         color: rgba(13, 19, 33, 0.7);
         font-family: Azeret Mono;
         font-size: 24px;
         font-weight: 700;
-        line-height: 36px;
-        letter-spacing: 0%;
-        text-align: left;
+        
 }
 
 .coding-subtitle {
-        width: 468px;
-        height: 52px;
-        justify-content: center;
-        align-items: flex-start;
-        padding: 0px;
-        margin: 16px 0px;
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left;
         opacity: 0.7;
 
 }
@@ -235,7 +235,10 @@ header {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin-top: 100px;
+        /* margin-top: 100px; */
+        margin: 100px 50px;
+        padding: 150px 100px;
+
 
 }
 
@@ -255,7 +258,6 @@ header {
         padding: 0px;
 
 
-        /* Inside Auto Layout */
         flex: none;
         order: 0;
         flex-grow: 0;
@@ -273,7 +275,7 @@ header {
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
         font-size: 14px;
-        font-weight: 400;
+        font-weight: 600;
         line-height: 26px;
         letter-spacing: 0%;
         text-align: left;
@@ -298,17 +300,34 @@ header {
         line-height: 23px;
         letter-spacing: 0%;
         text-align: center;
+        cursor: pointer;
+}
+
+.coding-subtitle-chinging {
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+}
+
+.btn-coding {
+        cursor: pointer;
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-weight: 600;
+
 }
 
 /* inparation section styling stars here */
 .inpaireation-part {
+        margin: 50px auto;
         width: 1140px;
         height: 100%;
-        top: 1850px;
         bottom: 2128px;
-        display: flex;
         align-items: center;
-        padding: 0px;
+        padding: 50px;
 
 
 }
@@ -339,13 +358,38 @@ header {
         margin-left: 250px;
 }
 
+.place-content-right {
+        /* Frame 14 */
+        position: static;
+        width: 1140px;
+        height: 614px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 32px;
+
+
+        /* Inside Auto Layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 48px 0px;
+        box-sizing: border-box;
+        border: 1px solid rgba(13, 19, 33, 0.2);
+        border-radius: 16px;
+
+}
+
 .place-photo {
-        width: 1076px;
-        height: 650px;
-        border-radius: 25px;
+        width: 1050px;
+        height: 1450px;
         margin: 0 auto;
-        margin-left: 250px;
-        border: 2px solid red;
+
+
+
 }
 
 
@@ -530,7 +574,7 @@ header {
 }
 
 .react-card {
-        margin-bottom:20px;
+        margin-bottom: 20px;
         width: 1140px;
         height: 220px;
         box-sizing: border-box;
@@ -664,21 +708,19 @@ header {
         width: 120px;
         height: 58px;
         display: flex;
-        flex-direction: row;
         justify-content: center;
         align-items: center;
         padding: 17px 20px 17px 20px;
-        margin: 0px 16px;
         border-radius: 8px;
         background: rgb(255, 255, 255);
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
-        font-size: 18px;
-        font-weight: 600;
+        font-size: 16px;
+        font-weight: 300;
         line-height: 23px;
-        letter-spacing: 0%;
         text-align: center;
         border: none;
+        cursor: pointer;
 
 }
 
